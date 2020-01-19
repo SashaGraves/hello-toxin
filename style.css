@@ -1,5 +1,5 @@
 body {
-  background-color: #666666;
+  background-color: purple;
   font-family: monospace;
   font-size: 20px;
 }
@@ -12,3 +12,4 @@ p {
 strong {
   font-width: bold;
 }
+
