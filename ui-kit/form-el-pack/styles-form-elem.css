@@ -1,3 +1,5 @@
+@import url("email-input-def.css");
+
 body {
   padding: 141px 143px;
 }
@@ -46,12 +48,13 @@ input {
 
 }
 
-input#email_input {
+
+/*input#email_input {
   border: 1px solid rgba(31, 32, 65, 0.25);
   color: rgba(31, 32, 65, 0.25);
   line-height: 18px;
   padding: 14px;
-}
+} */
 
 input#email_input_hov_foc /*:hover. :focus*/{
   border: 1px solid rgba(31, 32, 65, 0.5);
