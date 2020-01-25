@@ -10,7 +10,13 @@
     <div class="block">
       <div class="float-svg">
         <svg width="48" height="48">
-          <circle r="24" cx="24" cy="24" fill="#bc9cff"/>
+          <linearGradient id="grad" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="#BC9CFF"/>
+            <stop offset="100%" stop-color="#8BA4F9"/>
+          </linearGradient>
+          <circle r="18" cx="24" cy="24" fill="none" stroke="url(#grad)" stroke-width="4px" />
+          <circle r="3" cx="18" cy="19" fill="#bc9cff"/>
+          <circle r="3" cx="31" cy="19" fill="#bc9cff"/>
         </svg></div>
       <dl class="advant">
         <dt>Комфорт</dt>
@@ -18,12 +24,17 @@
       </dl>
     </div>
 
-
+ 
 
     <div class="block">
       <div class="float-svg">
       <svg width="48" height="48">
-        <rect width="40" height="44" x="5" y="5" fill="#bc9cff"/>
+        <linearGradient id="grad" x1="0" x2="0" y1="0" y2="1">
+          <stop offset="0%" stop-color="#BC9CFF"/>
+          <stop offset="100%" stop-color="#8BA4F9"/>
+        </linearGradient>
+        <rect width="48" height="48" stroke="black" fill="none"/>
+        <polygon points="6,12 18,12 18,5 42,8 42,41 6,41" fill="black" opacity="0.5"/>
       </svg></div>
       <dl class="advant">
         <dt>Удобство</dt>
