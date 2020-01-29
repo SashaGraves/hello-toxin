@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("Quicksand-Bold.woff2") format('woff2'),
+      url("Quicksand-Bold.woff") format('woff'),
+      url("Quicksand-Bold.ttf") format('ttf');
+      font-style: normal;
+      font-weight: bold;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("Quicksand-Regular.woff2") format('woff2'),
+      url("Quicksand-Regular.woff") format('woff');
+      font-style: normal;
+      font-weight: normal;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+div {
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+
+.color {
+  width: 300px;
+  min-height: 100px;
+  display: flex;
+
+
+  .__view {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    }
+
+
+  .__discription {
+    display: inline-block;
+    width: 159px;
+    min-height: 57px;
+    font-family: 'Quicksand';
+    font-size: 12px;
+    line-height: 29px;
+
+      .__name {
+        font-weight: bold;
+      }
+  }
+}
+
+
+
+
+@mixin bkg($hexcode, $opacity) {
+  background-color: $hexcode;
+  opacity: $opacity;
+}
+
+.dsh100 {
+  @include bkg(#1F2041, 100%);
+}
+
+.dsh75 {
+  @include bkg(#1F2041, 75%);
+}

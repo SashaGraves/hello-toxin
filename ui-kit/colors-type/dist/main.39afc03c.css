@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("/Quicksand-Bold.45d6dc58.woff2") format("woff2"), url("/Quicksand-Bold.e9e2ff36.woff") format("woff"), url("/Quicksand-Bold.873ae35a.ttf") format("ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("/Quicksand-Regular.e228165e.woff2") format("woff2"), url("/Quicksand-Regular.f43f17fd.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+div {
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.color {
+  width: 300px;
+  min-height: 100px;
+  display: flex;
+}
+.color .__view {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+}
+.color .__discription {
+  display: inline-block;
+  width: 159px;
+  min-height: 57px;
+  font-family: "Quicksand";
+  font-size: 12px;
+  line-height: 29px;
+}
+.color .__discription .__name {
+  font-weight: bold;
+}
+
+.dsh100 {
+  background-color: #1F2041;
+  opacity: 100%;
+}
+
+.dsh75 {
+  background-color: #1F2041;
+  opacity: 75%;
+}
+
+/*# sourceMappingURL=/main.39afc03c.css.map */
