@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("/Quicksand-Bold.45d6dc58.woff2") format("woff2"), url("/Quicksand-Bold.e9e2ff36.woff") format("woff"), url("/Quicksand-Bold.873ae35a.ttf") format("ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("/Quicksand-Regular.e228165e.woff2") format("woff2"), url("/Quicksand-Regular.f43f17fd.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.color {
+  width: 300px;
+  min-height: 100px;
+  display: flex;
+  border: 1px solid;
+}
+.color .__view {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+}
+.color .__discription {
+  font-family: "Quicksand";
+  font-size: 19px;
+  line-height: 29px;
+  margin-left: 20px;
+  vertical-align: center;
+  border: 1px solid;
+}
+.color .__discription .__name {
+  font-weight: bold;
+}
+
+.dsh100 {
+  background-color: #1F2041;
+  opacity: 100%;
+}
+
+.dsh75 {
+  background-color: #1F2041;
+  opacity: 75%;
+}
+
+.dsh50 {
+  background-color: #1F2041;
+  opacity: 50%;
+}
+
+.dsh25 {
+  background-color: #1F2041;
+  opacity: 25%;
+}
+
+.dsh05 {
+  background-color: #1F2041;
+  opacity: 5%;
+}
+
+.pur {
+  background-color: #BC9CFF;
+  opacity: 100%;
+}
+
+.grn {
+  background-color: #6FCF97;
+  opacity: 100%;
+}
+
+/*# sourceMappingURL=/main.39afc03c.css.map */

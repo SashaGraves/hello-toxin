@@ -1,0 +1,42 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+
+}
+
+
+
+  .block {
+    width: 280px;
+    border-bottom: 2px solid rgba(31, 32, 65, 0.1);
+    margin-top: 23px;
+  }
+
+
+  .block .float-svg {
+    float: left;
+    width: 48px;
+    height: 48px;
+    padding: 3px;
+  }
+
+  .block .advant {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0px;
+    margin-bottom: 17px;
+    margin-left: 2px;
+  }
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  display: block;
+  margin-left: 0px;
+}
