@@ -18,16 +18,19 @@ html
       
       mixin color-one(name, hexcode, myclass)
         div.color
-          p Color
           div.__view(class=myclass)
           div.__discription
             div.__name= name
             div.__hexcode= hexcode
             
-      div.palette
-        p Palette      
+      div.palette      
         +color-one('Dark Shade 100%', '#1F2041', 'dsh100')
         +color-one('Dark Shade 75%', '#1F2041', 'dsh75')
+        +color-one('Dark Shade 50%', '#1F2041', 'dsh50')
+        +color-one('Dark Shade 25%', '#1F2041', 'dsh25')
+        +color-one('Dark Shade 5%', '#1F2041', 'dsh05')
+        +color-one('Purple', '#BC9CFF', 'pur')
+        +color-one('Green', '#6FCF97', 'grn')
       
 
       

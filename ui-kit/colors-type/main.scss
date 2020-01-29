@@ -20,12 +20,6 @@
   justify-content: space-around;
 }
 
-div {
-  box-sizing: border-box;
-  border: 1px solid black;
-  margin: 5px;
-  padding: 5px;
-}
 
 
 
@@ -33,6 +27,7 @@ div {
   width: 300px;
   min-height: 100px;
   display: flex;
+  border: 1px solid;
 
 
   .__view {
@@ -44,12 +39,12 @@ div {
 
 
   .__discription {
-    display: inline-block;
-    width: 159px;
-    min-height: 57px;
     font-family: 'Quicksand';
-    font-size: 12px;
+    font-size: 19px;
     line-height: 29px;
+    margin-left: 20px;
+    vertical-align: center;
+    border: 1px solid;
 
       .__name {
         font-weight: bold;
@@ -71,4 +66,24 @@ div {
 
 .dsh75 {
   @include bkg(#1F2041, 75%);
+}
+
+.dsh50 {
+  @include bkg(#1F2041, 50%);
+}
+
+.dsh25 {
+  @include bkg(#1F2041, 25%);
+}
+
+.dsh05 {
+  @include bkg(#1F2041, 5%);
+}
+
+.pur {
+  @include bkg(#BC9CFF, 100%);
+}
+
+.grn {
+  @include bkg(#6FCF97, 100%);
 }
