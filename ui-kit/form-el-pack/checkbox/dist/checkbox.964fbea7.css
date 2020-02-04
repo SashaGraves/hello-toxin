@@ -2,4 +2,48 @@ div {
   border: 1px solid;
 }
 
+.checkbox-plate {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  text-transform: uppercase;
+  /* Dark 100% */
+  color: #1F2041;
+}
+
+.checkbox {
+  position: relative;
+}
+.checkbox__label::before {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content: " ";
+  border: 1px solid;
+  border-radius: 4px;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+.checkbox__label::after {
+  content: " ";
+  box-sizing: border-box;
+  vertical-align: bottom;
+  display: inline-block;
+  width: 8px;
+  height: 6px;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+}
+.checkbox__input {
+  display: none;
+}
+
 /*# sourceMappingURL=/checkbox.964fbea7.css.map */
