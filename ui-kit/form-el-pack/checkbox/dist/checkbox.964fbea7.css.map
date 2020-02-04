@@ -1,0 +1,1 @@
+{"version":3,"sources":["checkbox.scss"],"names":[],"mappings":"AAAA;EACE","file":"checkbox.964fbea7.css","sourceRoot":"..","sourcesContent":["div {\r\n  border: 1px solid;\r\n\r\n}\r\n\r\n.checkbox-plate {\r\n\r\n}\r\n\r\n.checkbox {\r\n\r\n  &__label {\r\n\r\n  }\r\n\r\n  &__input {\r\n\r\n  }\r\n\r\n}\r\n"]}
