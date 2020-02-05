@@ -15,6 +15,26 @@
       font-weight: normal;
 }
 
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('Montserrat-Regular.woff2') format('woff2'),
+      url('Montserrat-Regular.woff') format('woff'),
+      url('Montserrat-Regular.ttf') format('ttf');
+      font-style: normal;
+      font-weight: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('Montserrat-Bold.woff2') format('woff2'),
+      url('Montserrat-Bold.woff') format('woff'),
+      url('Montserrat-Bold.ttf') format('ttf');
+      font-style: normal;
+      font-weight: bold;
+}
+
+
 .content {
   display: flex;
   justify-content: space-around;
@@ -22,12 +42,109 @@
 
 
 
+.tag {
+  width: 400px;
+  margin-bottom: 50px;
+  display: flex;
+  //border: 1px solid;
+
+    .__name {
+      margin-right: 30px;
+      color: rgba(31, 32, 65, 0.25);
+      //border: 1px solid;
+      min-width: 40px;
+      text-align: right;
+    }
+
+    .__discription {
+      color: #1F2041;
+    }
+}
+
+
+.h-one {
+  .__name {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 29px;
+  }
+
+  .__discription {
+    font-family: 'Quicksand';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+  }
+}
+
+
+.h-two  {
+  .__name {
+    font-size: 19px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 23px;
+  }
+
+  .__discription {
+    font-family: 'Quicksand';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+  }
+}
+
+
+
+.h-three {
+  .__name {
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+  }
+
+  .__discription {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+}
+
+
+.body-text {
+  .__name {
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+  }
+
+  .__discription {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+  }
+}
+
 
 .color {
   width: 300px;
   min-height: 100px;
   display: flex;
-  border: 1px solid;
+  // border: 1px solid;
 
 
   .__view {
@@ -44,7 +161,7 @@
     line-height: 29px;
     margin-left: 20px;
     vertical-align: center;
-    border: 1px solid;
+    //border: 1px solid;
 
       .__name {
         font-weight: bold;

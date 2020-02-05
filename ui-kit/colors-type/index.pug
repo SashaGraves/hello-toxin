@@ -34,10 +34,16 @@ html
       
 
       
+      mixin tag-one(myclass, tag, discription)
+        .tag(class= myclass)
+          .__name= tag
+          .__discription= discription
+      
       
       div.tag-dictionary
-        p Это описание тегов
-    
-    
+        +tag-one('h-one', 'H1', 'This one is the sub-section or widget title')
+        +tag-one('h-two', 'H2', 'Next one is the item title inside widgets')
+        +tag-one('h-three', 'H3', 'This is a label or CTA text')
+        +tag-one('body-text', 'Body', 'This is the body text which is used for most of the design, like paragraphs, lists, etc.')
   
   
