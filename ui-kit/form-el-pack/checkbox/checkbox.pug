@@ -1,0 +1,21 @@
+doctype html
+html(lang="ru" dir="ltr") 
+  head
+    title Form Elements
+    meta(charset="utf-8")
+    link(rel="stylesheet" href="./checkbox.scss")
+  
+  body
+    div.checkbox-plate Checkbox Button
+      form(method="post" action=" ")
+        div.checkbox
+          label(class="checkbox__label" for="smoke") Можно курить 
+          input(class="checkbox__input" id="smoke" type="checkbox" name="smoke")
+        
+        div.checkbox
+          label(class="checkbox__label checkbox__label_checked" for="pet") Можно с питомцами
+          input(class="checkbox__input" id="pet" type="checkbox" name="pet" checked)
+        
+        div.checkbox
+          label(class="checkbox__label checkbox__label_checked" for="party") Можно пригласить гостей (до 10 человек)
+          input(class="checkbox__input" id="party" type="checkbox" name="party" checked)
