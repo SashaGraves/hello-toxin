@@ -1,0 +1,50 @@
+
+doctype html
+html
+  head
+    title Colors and Types
+    link(rel="stylesheet" href='colors-types.scss')
+    link(rel="stylesheet" href="../../fonts/fonts.css")
+
+  body
+    div.header
+      div.logo
+        include logo-gray.svg
+  
+  
+    
+
+    div.content
+      
+      
+      mixin color-one(name, hexcode, myclass)
+        div.color
+          div.__view(class=myclass)
+          div.__discription
+            div.__name= name
+            div.__hexcode= hexcode
+            
+      div.palette      
+        +color-one('Dark Shade 100%', '#1F2041', 'dsh100')
+        +color-one('Dark Shade 75%', '#1F2041', 'dsh75')
+        +color-one('Dark Shade 50%', '#1F2041', 'dsh50')
+        +color-one('Dark Shade 25%', '#1F2041', 'dsh25')
+        +color-one('Dark Shade 5%', '#1F2041', 'dsh05')
+        +color-one('Purple', '#BC9CFF', 'pur')
+        +color-one('Green', '#6FCF97', 'grn')
+      
+
+      
+      mixin tag-one(myclass, tag, discription)
+        .tag(class= myclass)
+          .__name= tag
+          .__discription= discription
+      
+      
+      div.tag-dictionary
+        +tag-one('h-one', 'H1', 'This one is the sub-section or widget title')
+        +tag-one('h-two', 'H2', 'Next one is the item title inside widgets')
+        +tag-one('h-three', 'H3', 'This is a label or CTA text')
+        +tag-one('body-text', 'Body', 'This is the body text which is used for most of the design, like paragraphs, lists, etc.')
+  
+  

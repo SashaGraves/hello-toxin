@@ -1,0 +1,42 @@
+//не забыть указывать в подключении для обоих шрифтов:
+// Arial, sans-serif;
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("/Quicksand-Bold.95b04c6f.woff2") format('woff2'),
+      url("/Quicksand-Bold.c648e5bd.woff") format('woff'),
+      url("/Quicksand-Bold.f895cecd.ttf") format('ttf');
+      font-style: normal;
+      font-weight: 700;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("/Quicksand-Regular.75588754.woff2") format('woff2'),
+      url("/Quicksand-Regular.d7e5711a.woff") format('woff'),
+      url("/Quicksand-Regular.3f9d61b3.ttf") format('ttf');
+      font-style: normal;
+      font-weight: 400;
+}
+
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('/Montserrat-Regular.ac4c05ba.woff2') format('woff2'),
+      url('/Montserrat-Regular.cc42fec2.woff') format('woff'),
+      url('/Montserrat-Regular.135e392f.ttf') format('ttf');
+      font-style: normal;
+      font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('/Montserrat-Bold.9f4eb483.woff2') format('woff2'),
+      url('/Montserrat-Bold.258148f4.woff') format('woff'),
+      url('/Montserrat-Bold.faf03cef.ttf') format('ttf');
+      font-style: normal;
+      font-weight: 700;
+}
+
+
+/*# sourceMappingURL=/fonts.25435dc2.css.map */

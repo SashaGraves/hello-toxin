@@ -1,0 +1,139 @@
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tag {
+  width: 400px;
+  margin-bottom: 50px;
+  display: flex;
+}
+.tag .__name {
+  margin-right: 30px;
+  color: rgba(31, 32, 65, 0.25);
+  min-width: 40px;
+  text-align: right;
+}
+.tag .__discription {
+  color: #1F2041;
+}
+
+.h-one .__name {
+  font-size: 24px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 29px;
+}
+.h-one .__discription {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.h-two .__name {
+  font-size: 19px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+}
+.h-two .__discription {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.h-three .__name {
+  font-size: 12px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 15px;
+}
+.h-three .__discription {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.body-text .__name {
+  font-size: 14px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
+.body-text .__discription {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.color {
+  width: 300px;
+  min-height: 100px;
+  display: flex;
+}
+.color .__view {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+}
+.color .__discription {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 29px;
+  margin-left: 20px;
+  vertical-align: center;
+}
+.color .__discription .__name {
+  font-weight: bold;
+}
+
+.dsh100 {
+  background-color: #1F2041;
+  opacity: 100%;
+}
+
+.dsh75 {
+  background-color: #1F2041;
+  opacity: 75%;
+}
+
+.dsh50 {
+  background-color: #1F2041;
+  opacity: 50%;
+}
+
+.dsh25 {
+  background-color: #1F2041;
+  opacity: 25%;
+}
+
+.dsh05 {
+  background-color: #1F2041;
+  opacity: 5%;
+}
+
+.pur {
+  background-color: #BC9CFF;
+  opacity: 100%;
+}
+
+.grn {
+  background-color: #6FCF97;
+  opacity: 100%;
+}
+
+/*# sourceMappingURL=/colors-types.24e19a95.css.map */
