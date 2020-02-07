@@ -1,0 +1,41 @@
+
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("/Quicksand-Bold.eb7aaa74.woff2") format('woff2'),
+      url("/Quicksand-Bold.9d6d9460.woff") format('woff'),
+      url("/Quicksand-Bold.e8196955.ttf") format('ttf');
+      font-style: normal;
+      font-weight: 700;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("/Quicksand-Regular.569e23d1.woff2") format('woff2'),
+      url("/Quicksand-Regular.802b5f30.woff") format('woff'),
+      url("/Quicksand-Regular.8a0a465b.ttf") format('ttf');
+      font-style: normal;
+      font-weight: 400;
+}
+
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('/Montserrat-Regular.6f086254.woff2') format('woff2'),
+      url('/Montserrat-Regular.1b35f2ae.woff') format('woff'),
+      url('/Montserrat-Regular.44e710c1.ttf') format('ttf');
+      font-style: normal;
+      font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('/Montserrat-Bold.71aa32d1.woff2') format('woff2'),
+      url('/Montserrat-Bold.73e94c2c.woff') format('woff'),
+      url('/Montserrat-Bold.f3410305.ttf') format('ttf');
+      font-style: normal;
+      font-weight: 700;
+}
+
+
+/*# sourceMappingURL=/fonts.b13d561a.css.map */

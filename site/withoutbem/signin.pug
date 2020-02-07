@@ -1,0 +1,81 @@
+doctype html
+html
+  head
+    title Sign in
+    link(rel="stylesheet" href="fonts/fonts.css")
+    link(rel="stylesheet" href="signin.scss")
+    meta(charset="utf-8")
+    
+    
+  
+  body
+    header
+      img.logo(src="logoToxin.svg" alt="логотип Токсин")
+      nav.menu
+        a(href="") О нас
+        a(href="" class="expandable") Услуги 
+        a(href="") Вакансии
+        a(href="") Новости
+        a(href="" class="expandable") Соглашения
+        
+      .auth-container  
+        button(type="button" class="white-button") Войти
+        button(type="button" class="colored-button") Зарегистрироваться
+      
+    
+    main
+      .signin
+        form(action="" method="post")
+          h2 Войти
+          label(for="email")
+            input(id="email" type="email" name="email" placeholder="Email")
+          label(for="password")
+            input(id="password" name="password" type="password" placeholder="Пароль")
+          button(type="submit" class="colored-button") Войти
+            img(src="arrow_forward.svg" alt="Войти")
+            
+        .create-acc
+          button(type="button" class="white-button") Создать
+          div Нет аккаунта на Toxin?
+      
+    
+    footer
+      .container
+        .tagline
+          img.logo(src="logoToxin.svg" alt="логотип Токсин")
+          .motto Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды» 
+        .block-nav
+          h2 Навигация
+          a(href="") О нас
+          a(href="") Новости
+          a(href="") Служба поддержки
+          a(href="") Услуги
+        .block-about
+          h2 О нас
+          a(href="") О сервисе 
+          a(href="") Наша команда
+          a(href="") Вакансии
+          a(href="") Инвесторы
+        .block-support
+          h2 Служба поддержки
+          a(href="") Соглашения
+          a(href="") Сообщества
+          a(href="") Связь с нами
+        .block-subscribe
+          h2 Подписка
+          form(action="" method="post")
+            label(for="subscribe") Получайте специальные предложения и новости сервиса
+              input(id="subscribe" type="email" name="subscribe" placeholder="Email")
+              button(type="submit") 
+                img(src="arrow_forward_lila.svg" alt="Подписаться")
+      
+      .container
+        .copys Copyright &copy; 2018 Toxin отель. Все права зачищены. 
+        .socmedia 
+          a(href="")
+            img(src="twitter-brands.svg" alt="наш Твиттер")
+          a(href="")
+            img(src="facebook-square-brands.svg" alt="наш Фейсбук")
+          a(href="")
+            img(src="instagram-brands.svg" alt="наш Инстаграм") 
+      
