@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Montserrat", Arial, sans-serif;
   box-sizing: border-box;
@@ -87,10 +88,11 @@ main {
   margin: 10px 10px;
 }
 
-.signin form button img {
+.signin form button::after {
+  content: url("/arrow_forward.339586d3.svg");
   display: float;
   float: right;
-  vertical-align: middle;
+  vertical-align: baseline;
 }
 
 .create-acc {
@@ -108,6 +110,13 @@ main {
   float: right;
   padding: 12px 17px;
   margin-right: 5px;
+}
+
+/*футер*/
+footer button {
+  content: "";
+  background-image: url("/arrow_forward_lila.1df60702.svg");
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=/signin.5037ecb3.css.map */
