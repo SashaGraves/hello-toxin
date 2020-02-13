@@ -19,16 +19,11 @@ main {
     margin-top: 50px;
 }
 
-.clearfix {
-    display: table;
-    clear: both;
-
-}
 
 /*Header 1*/
 
 .authorise-header {
-    padding: 20px 140px;
+    padding: 10px 110px;
     font-family: "Montserrat", Arial, sans-serif;
     font-style: normal;
 
@@ -42,29 +37,26 @@ main {
 
 .authorise-header > nav {
     text-align: right;
-    margin-right: 30px;
 
 }
 
-.authorise-header > .authorise-buttons {
-    display: float;
-    float: right;
-    margin-left: 30px;
-}
 
-.authorise-buttons button {
+.authorise-header button {
     font-family: inherit;
     box-sizing: border-box;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 7px 20px;
+    padding: 8px 20px;
     border-radius: 22px;
     font-size: 12px;
     line-height: 15px;
+
+    display: inline-block;
+    margin: 7px;
   }
 
-.authorise-buttons .colored-button {
+.authorise-header .colored-button {
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
     color: white;
     border: 2px solid;
@@ -74,18 +66,13 @@ main {
   }
   
   
-.authorise-buttons .white-button {
+  .authorise-header .white-button {
     border: 2px solid;
     border-color: #BC9CFF;
     color: #BC9CFF;
     background-color: white;
   }
 
-  nav span {
-    width: 80px;
-    box-sizing: border-box;
-    text-align: center; 
-    display: inline-block;}
 
   nav a {
     
@@ -93,9 +80,63 @@ main {
     line-height: 17px;
     color: rgba(31, 32, 65, 0.5);
     text-decoration: none;
+    display: inline-block;
+    margin: 15px;
   }
 
   nav a:hover {
     font-weight: bold;
+
+}
+
+
+/*Header-2*/
+
+
+.personised-header {
+    padding: 10px 110px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-style: normal;
+
+}
+
+.personised-header > .logo-container {
+    display: float;
+    float: left;
+    margin-right: 30px;
+}
+
+.personised-header > nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+
+}
+
+nav a {
+    
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.5);
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+nav a:hover {
+    font-weight: bold;
+
+}
+
+
+.person {
+
+    border-left: 1px solid rgba(31, 32, 65, 0.1);
+    padding: 6px;
+}
+
+.person a {
+    display: inline;
+    vertical-align: middle;
 
 }
